@@ -5,10 +5,18 @@
 #include <QtWidgets>
 
 class Signal_Slot : public QWidget {
+    Q_OBJECT
     public:
         Signal_Slot();
+
+    public slots:
+        void reveal();
+
+    signals:
+        void invlabel();
     private:
         QPushButton *btn;
+        QLabel *label;
 
 };
 
