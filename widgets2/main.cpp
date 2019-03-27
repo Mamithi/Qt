@@ -8,11 +8,11 @@ int main(int argc, char** argv) {
 
 
     // Dialog widgets
-//    QDialog dialog;
-//    dialog.setFixedSize(300, 150);
-//    dialog.setModal(false);
-//    QPushButton btn("Welcome", &window);
-//    btn.move(100, 50);
+    QDialog dialog;
+    dialog.setFixedSize(300, 150);
+    dialog.setModal(false);
+    QPushButton btn("Welcome", &window);
+    btn.move(100, 50);
 
 //    QObject::connect(&btn, SIGNAL(clicked()), &dialog, SLOT(show()));
     // End of dialog widgets
@@ -58,9 +58,9 @@ int main(int argc, char** argv) {
 
 
     // End of combo box
-    QComboBox list(&window);
-    list.addItem("London");
-    list.addItem("Nairobi");
+//    QComboBox list(&window);
+//    list.addItem("London");
+//    list.addItem("Nairobi");
 
 
 
